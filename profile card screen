@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Profile Card</title>
+  <style>
+    .profile-card {
+      text-align: center;
+      margin: 10% auto 0;
+      max-width: 300px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      font-family: Arial, sans-serif;
+    }
+    .profile-card img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+    .profile-card h2 {
+      margin: 0 0 10px 0;
+    }
+    .profile-card p {
+      color: #555;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-card">
+    <img src="https://i.pinimg.com/736x/45/12/29/451229fb19d76d266dd0c6353d6d4194.jpg" alt="Profile" />
+    <h2>MITSUHA</h2>
+    <p>Passionate web developer</p>
+  </div>
+</body>
+</html>
